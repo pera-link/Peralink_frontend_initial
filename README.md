@@ -100,3 +100,12 @@ IF ABOVE DOESN'T WORK DUE TO VERSION MISMATCH THEN USE:
 
 1. npm install --force
 2. npm run dev
+
+You can edit the diagram using [draw.io](https://app.diagrams.net/):
+- https://app.diagrams.net/#G14qCQPmgK4u4IsMYDU-oY83VnZ0kacR0P#%7B%22pageId%22%3A%22peralink-ui-flow%22%7D
+![peralink-ui-flow-diagram drawio](https://github.com/user-attachments/assets/bc65609d-5f96-4820-ac20-66510b209379)
+
+- https://app.diagrams.net/#G16x98fybXK6e23qBLtFWZx0aBj6rIwhaz#%7B%22pageId%22%3A%22QCnRpUcr4D_y8BV9xNyQ%22%7D
+![peralink-ui-flow-diagram drawio_explained](https://github.com/user-attachments/assets/e0e3316a-a78d-47f5-899b-c906d0eb6bac)
+
+
