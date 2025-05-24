@@ -11,8 +11,6 @@ Not done based on micro frontend.
 
 ## Setup Instructions
 
-This document provides step-by-step instructions for setting up and running the Peralink university social media platform on your local machine.
-
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your laptop:
@@ -27,16 +25,16 @@ Before you begin, ensure you have the following installed on your laptop:
 
 ## Setup Steps
 
-### 1. Extract the Project Files
+### 1. Clone the Project Files
 
-Extract the `peralink-ui.zip` file to a location of your choice on your laptop.
+Clone the file to a location of your choice on your laptop.
 
 ### 2. Install Dependencies
 
 Open a terminal/command prompt and navigate to the extracted project directory:
 
 ```bash
-cd path/to/peralink-ui
+cd path/to/Peralink_frontend_initial
 ```
 
 Install the project dependencies:
@@ -66,47 +64,6 @@ npm run dev
 ```
 
 This will start the development server, typically at http://localhost:5173/. Open this URL in your browser to view the application.
-
-### 4. Build for Production (Optional)
-
-If you want to create a production build:
-
-```bash
-pnpm run build
-```
-
-Or with npm:
-
-```bash
-npm run build
-```
-
-This will create a `dist` folder with optimized files for production.
-
-### 5. Serve the Production Build (Optional)
-
-To preview the production build locally, you can use a static file server:
-
-```bash
-# Install serve globally if you don't have it
-pnpm install -g serve
-# or
-npm install -g serve
-
-# Serve the production build
-serve -s dist
-```
-
-This will typically serve the application at http://localhost:3000/.
-
-## Project Structure
-
-- `src/` - Source code
-  - `assets/` - Images and other static assets
-  - `components/` - Reusable UI components
-  - `pages/` - Page components for different routes
-- `public/` - Public static files
-- `dist/` - Production build output (after running build command)
 
 ## Features
 
@@ -139,9 +96,7 @@ If you encounter any issues:
 - Styling is implemented with Tailwind CSS for responsive design
 
 
-
-
-IF ABOVE DOESN'T WORK DUE VERSION MISMATCH THEN USE:
+IF ABOVE DOESN'T WORK DUE TO VERSION MISMATCH THEN USE:
 
 1. npm install --force
 2. npm run dev
